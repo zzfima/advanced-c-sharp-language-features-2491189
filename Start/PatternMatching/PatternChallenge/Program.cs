@@ -29,7 +29,7 @@ SecuritiesTrade[] tradeList = new SecuritiesTrade[] {
 foreach (var tradeItem in tradeList)
 {
     try {
-        CommisionCalculator.PrintTradeCommission(tradeItem);
+        CommissionCalculator.PrintTradeCommission(tradeItem);
     }
     catch (ArgumentException e) {
         Console.WriteLine($"{e.Message}");
